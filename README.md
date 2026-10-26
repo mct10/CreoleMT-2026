@@ -47,5 +47,22 @@ Each extracted file is a JSONL file with one sentence pair per line, e.g. `{"aoa
 ## Citation
 If you find this repository helpful, please cite our paper:
 ```
-TODO
+@inproceedings{meng-anastasopoulos-2026-gmu,
+    title = "{GMU} {WMT} 2026 {C}reole{MT} System Description",
+    author = "Meng, Chutong  and
+      Anastasopoulos, Antonios",
+    editor = "Haddow, Barry  and
+      Kocmi, Tom  and
+      Koehn, Philipp  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eleventh Conference on Machine Translation",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.wmt-main.188/",
+    pages = "2448--2454",
+    ISBN = "979-8-89176-474-3",
+    abstract = "We present GMU{'}s submissions to the WMT26 Creole Language Translation Shared Task, exploring LLM fine-tuning and few-shot prompting for English-Creole language translation. Our experiments show that LLM-based systems outperform NLLB-based systems, while few-shot prompting is particularly effective for the lowest-resource language pairs. We also demonstrate that extracting incidental parallel sentences from archival grammar books improves translation performance."
+}
 ```
